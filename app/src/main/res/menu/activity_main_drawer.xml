@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_cbe"
+            android:icon="@drawable/ic_cbe"
+            android:title="@string/menu_cbe" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_mob"-->
+<!--            android:icon="@drawable/ic_bundles"-->
+<!--            android:title="@string/menu_mob" />-->
+
+
+    <group android:id="@+id/k" android:checkableBehavior="single">
+        <item android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+
+        <item android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help"/>
+
+    </group>
+
+</menu>

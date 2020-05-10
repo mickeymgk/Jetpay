@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/cbe_check_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/check_balance"
+        app:ActionIcon="@drawable/ic_check"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/cbe_send_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/send_money"
+        app:ActionIcon="@drawable/ic_send"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+     <me.miza.jetpay.view.ActionView
+        android:id="@+id/cbe_sell_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/sell_item"
+        app:ActionIcon="@drawable/ic_sell"
+         android:clickable="true"
+         android:focusable="true"
+        />
+
+</LinearLayout>

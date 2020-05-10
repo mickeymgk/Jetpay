@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bundle.BundlesFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Bundles"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/internet_packages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/internet_packages"
+        app:ActionIcon="@drawable/ic_data"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/voice_packages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/voice_packages"
+        app:ActionIcon="@drawable/ic_voice"/>
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/sms_packages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/sms_packages"
+        app:ActionIcon="@drawable/ic_sms"/>
+
+    <me.miza.jetpay.view.ActionView
+        android:id="@+id/premium_packages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ActionText="@string/premium_packages"
+        app:ActionIcon="@drawable/ic_premium"
+        app:ActionDivider="8"/>
+
+</LinearLayout>

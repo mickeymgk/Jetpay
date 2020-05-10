@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_quick_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="@string/quick_pay"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_anchor="@id/bottom_appbar"
+        app:icon="@drawable/ic_quick_pay"
+        app:iconTint="@color/colorSurface"
+        android:textColor="@color/colorSurface"
+        />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        app:fabAlignmentMode="center"
+        app:fabAnimationMode="scale"
+        app:hideOnScroll="true"
+        app:fabCradleRoundedCornerRadius="0dp"
+        app:backgroundTint="@color/colorSurface"
+        app:menu="@menu/main" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

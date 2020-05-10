@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionView">
+        <attr name="ActionText" format="string"/>
+        <attr name="ActionIcon" format="reference"/>
+        <attr name="ActionDivider" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="HelpView">
+        <attr name="Header" format="string"/>
+        <attr name="Body" format="string"/>
+    </declare-styleable>
+</resources>

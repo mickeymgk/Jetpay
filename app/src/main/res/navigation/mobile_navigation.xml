@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cbe">
+
+    <fragment
+        android:id="@+id/nav_cbe"
+        android:name="me.miza.jetpay.ui.cbebirr.CbeFragment"
+        android:label="@string/menu_cbe"
+        tools:layout="@layout/fragment_cbe_choice" >
+        <action
+            android:id="@+id/action_nav_cbe_to_nav_cbe_send"
+            app:destination="@id/nav_cbe_send"
+            app:enterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_nav_cbe_to_nav_cbe_sell"
+            app:destination="@id/nav_cbe_sell"
+            app:enterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cbe_send"
+        android:name="me.miza.jetpay.ui.cbebirr.CbeSendFragment"
+        android:label="fragment_cbe_send"
+        tools:layout="@layout/fragment_cbe_send" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="me.miza.jetpay.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="me.miza.jetpay.ui.help.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_cbe_sell"
+        android:name="me.miza.jetpay.ui.cbebirr.CbeSellFragment"
+        android:label="fragment_cbe_sell"
+        tools:layout="@layout/fragment_merchant" />
+
+</navigation>

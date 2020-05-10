@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <me.miza.jetpay.view.HelpView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Header="@string/app_des_header"
+        app:Body="@string/app_des_body"/>
+
+    <me.miza.jetpay.view.HelpView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Header="@string/app_quick_header"
+        app:Body="@string/app_quick_body"/>
+
+    <me.miza.jetpay.view.HelpView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Header="@string/app_pin_header"
+        app:Body="@string/app_pin_body"/>
+
+    </LinearLayout>
+</ScrollView>

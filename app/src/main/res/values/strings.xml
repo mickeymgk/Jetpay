@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">JetPay</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"><b>COVID-19 Tracker</b></string>
+    <string name="nav_header_subtitle">0.0.1-beta</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_saved">Saved Countries</string>
+    <string name="menu_volunteer">Volunteer</string>
+    <string name="menu_about">About</string>
+
+    <string name="menu_mob">Mobile Bundles</string>
+    <string name="menu_cbe">CBE Birr</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="quick_pay">Quick Pay</string>
+
+    <!--EthioTel-->
+    <string name="internet_packages">Internet Packages</string>
+    <string name="voice_packages">Voice Packages</string>
+    <string name="sms_packages">SMS Packages</string>
+    <string name="premium_packages">Premium Unlimited Offers</string>
+    <string name="checking_balance">Checking Your Balance…</string>
+    <string name="processing_request">Processing your request…</string>
+    <string name="internet_daily">Daily</string>
+    <string name="internet_weekly">Weekly</string>
+    <string name="internet_monthly">Monthly</string>
+    <string name="internet_night">Night</string>
+    <string name="internet_weekend">Weekend</string>
+    <string name="saved_money">Save %1$s Birr</string>
+    <string name="mb">%1$d Mb</string>
+    <string name="birr">%1$d Birr</string>
+
+<!--    Help-->
+    <string name="app_des_header">What is JetPay?</string>
+    <string name="app_des_body">JetPay is an app for managing your CBE Birr account and make payment easily</string>
+
+    <string name="app_quick_header">What is Quick Pay?</string>
+    <string name="app_quick_body">Quick Pay is a feature for making quick payments by scanning QR codes that merchants give you</string>
+
+    <string name="app_pin_header">Does the app store my PIN?</string>
+    <string name="app_pin_body">No! pin codes are stored temporally while you\'re making a payment then permanently deleted while you complete the transaction</string>
+
+<!--    CBE Birr-->
+    <string name="check_balance">Check Balance</string>
+    <string name="send_money">Send Money</string>
+    <string name="sell_item">Sell Item</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
